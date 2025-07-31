@@ -1,0 +1,89 @@
+{
+  "restaurant": "Delicious Bites",
+  "items": [
+    {
+      "id": 1,
+      "name": "Margherita Pizza",
+      "price": 12.99,
+      "image": "https://images.unsplash.com/photo-1601924572358-03a25c3a4f9d?w=400&h=300&fit=crop&crop=center",
+      "description": "Classic pizza with tomatoes, mozzarella, and basil."
+    },
+    {
+      "id": 2,
+      "name": "Chicken Burger",
+      "price": 9.99,
+      "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=400&h=300&fit=crop&crop=center",
+      "description": "Juicy grilled chicken with lettuce and tomato."
+    },
+    {
+      "id": 3,
+      "name": "Caesar Salad",
+      "price": 8.5,
+      "image": "https://images.unsplash.com/photo-1604908812010-a9f95d816efc?w=400&h=300&fit=crop&crop=center",
+      "description": "Crisp romaine, croutons, and parmesan in Caesar dressing."
+    },
+    {
+      "id": 4,
+      "name": "Spaghetti Carbonara",
+      "price": 11.75,
+      "image": "https://images.unsplash.com/photo-1627308595229-7830a5c91f9f?w=400&h=300&fit=crop&crop=center",
+      "description": "Creamy pasta with bacon, cheese, and pepper."
+    },
+    {
+      "id": 5,
+      "name": "Sushi Platter",
+      "price": 18.99,
+      "image": "https://images.unsplash.com/photo-1579888874235-9f52a3b27f2d?w=400&h=300&fit=crop&crop=center",
+      "description": "Assorted sushi rolls with soy sauce and wasabi."
+    },
+    {
+      "id": 6,
+      "name": "Pad Thai",
+      "price": 10.5,
+      "image": "https://images.unsplash.com/photo-1627308595390-0db2f4a4c6c2?w=400&h=300&fit=crop&crop=center",
+      "description": "Thai noodles stir-fried with shrimp, tofu, and peanuts."
+    },
+    {
+      "id": 7,
+      "name": "Steak with Fries",
+      "price": 16.25,
+      "image": "https://images.unsplash.com/photo-1613145998971-4c9cd1eaf5f3?w=400&h=300&fit=crop&crop=center",
+      "description": "Grilled beef steak served with crispy fries."
+    },
+    {
+      "id": 8,
+      "name": "Veggie Sandwich",
+      "price": 7.25,
+      "image": "https://images.unsplash.com/photo-1585238342028-4bbc9f4d91b2?w=400&h=300&fit=crop&crop=center",
+      "description": "Whole grain bread loaded with fresh vegetables."
+    },
+    {
+      "id": 9,
+      "name": "Grilled Salmon",
+      "price": 14.95,
+      "image": "https://images.unsplash.com/photo-1588167056543-e7eaf37d4f87?w=400&h=300&fit=crop&crop=center",
+      "description": "Seasoned salmon fillet grilled to perfection."
+    },
+    {
+      "id": 10,
+      "name": "Beef Tacos",
+      "price": 9.49,
+      "image": "https://images.unsplash.com/photo-1604908177522-4028a2db7ef4?w=400&h=300&fit=crop&crop=center",
+      "description": "Spicy ground beef tacos with lettuce and salsa."
+    },
+    {
+      "id": 11,
+      "name": "Pancake Stack",
+      "price": 6.99,
+      "image": "https://images.unsplash.com/photo-1587731102740-b6f0d4b9a8df?w=400&h=300&fit=crop&crop=center",
+      "description": "Fluffy pancakes topped with syrup and berries."
+    },
+    {
+      "id": 12,
+      "name": "Chocolate Brownie",
+      "price": 4.5,
+      "image": "https://images.unsplash.com/photo-1589302168068-964664d93dc0?w=400&h=300&fit=crop&crop=center",
+      "description": "Rich chocolate brownie served warm."
+    }
+  ]
+}
