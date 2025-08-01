@@ -1,109 +1,3 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-
-/* App Container */
-.app-container {
-  min-height: 100vh;
-  background-color: #f9fafb;
-  padding-bottom: 48px;
-}
-
-/* Header */
-.app-header {
-  font-weight: bold;
-  font-size: 1.25rem;
-  color: #4b5563;
-  padding-top: 20px;
-  text-align: center;
-}
-
-/* Filter Buttons Section */
-.filter-buttons {
-  display: flex;
-  justify-content: center;
-  gap: 16px;
-  padding: 24px 0;
-}
-
-/* Filter Button Base Style */
-.filter-button {
-  padding: 8px 20px;
-  border-radius: 6px;
-  font-size: 0.875rem;
-  font-weight: 500;
-  border: 1px solid #d1d5db;
-  background-color: white;
-  color: #374151;
-  transition: all 0.2s ease;
-  cursor: pointer;
-}
-
-.filter-button:hover {
-  background-color: #f3f4f6;
-}
-
-/* Active Styles */
-.active-veg {
-  background-color: #16a34a;
-  color: white;
-  border-color: #16a34a;
-}
-
-.active-nonveg {
-  background-color: #dc2626;
-  color: white;
-  border-color: #dc2626;
-}
-
-.active-all {
-  background-color: #1f2937;
-  color: white;
-  border-color: #1f2937;
-}
-
-/* Food List Offset */
-.food-list-section {
-
-}
-
-
 /* Container styling */
 .food-list-container {
   min-height: 100vh;
@@ -213,8 +107,8 @@
 }
 
 .food-price {
-  background-color: #000000;
-  color: #ffffff;
+  background-color: #d1fae5;
+  color: #065f46;
   padding: 4px 12px;
   border-radius: 9999px;
   font-size: 0.875rem;
@@ -253,4 +147,3 @@
   font-size: 0.875rem;
   color: #6b7280;
 }
-
