@@ -3,87 +3,273 @@
   "items": [
     {
       "id": 1,
-      "name": "Margherita Pizza",
-      "price": 12.99,
-      "image": "https://images.unsplash.com/photo-1601924572358-03a25c3a4f9d?w=400&h=300&fit=crop&crop=center",
-      "description": "Classic pizza with tomatoes, mozzarella, and basil."
+      "name": "Paneer Tikka",
+      "price": 180,
+      "image": "https://images.unsplash.com/photo-1626082896161-f60a847c2101?w=400&h=300&fit=crop&crop=center",
+      "description": "Marinated cottage cheese grilled with spices.",
+      "type": "Veg",
+      "food_type": "Starter"
     },
     {
       "id": 2,
-      "name": "Chicken Burger",
-      "price": 9.99,
-      "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=400&h=300&fit=crop&crop=center",
-      "description": "Juicy grilled chicken with lettuce and tomato."
+      "name": "Chicken 65",
+      "price": 220,
+      "image": "https://images.unsplash.com/photo-1630732397450-469c11fcfa6a?w=400&h=300&fit=crop&crop=center",
+      "description": "Deep-fried spicy chicken chunks.",
+      "type": "Non-Veg",
+      "food_type": "Starter"
     },
     {
       "id": 3,
-      "name": "Caesar Salad",
-      "price": 8.5,
-      "image": "https://images.unsplash.com/photo-1604908812010-a9f95d816efc?w=400&h=300&fit=crop&crop=center",
-      "description": "Crisp romaine, croutons, and parmesan in Caesar dressing."
+      "name": "Veg Manchurian",
+      "price": 160,
+      "image": "https://images.unsplash.com/photo-1680243543319-5fdb502b00f7?w=400&h=300&fit=crop&crop=center",
+      "description": "Crispy vegetable balls tossed in Indo-Chinese sauce.",
+      "type": "Veg",
+      "food_type": "Starter"
     },
     {
       "id": 4,
-      "name": "Spaghetti Carbonara",
-      "price": 11.75,
-      "image": "https://images.unsplash.com/photo-1627308595229-7830a5c91f9f?w=400&h=300&fit=crop&crop=center",
-      "description": "Creamy pasta with bacon, cheese, and pepper."
+      "name": "Mutton Biryani",
+      "price": 280,
+      "image": "https://images.unsplash.com/photo-1593164842264-854604db3163?w=400&h=300&fit=crop&crop=center",
+      "description": "Fragrant basmati rice cooked with spiced mutton.",
+      "type": "Non-Veg",
+      "food_type": "Biryani"
     },
     {
       "id": 5,
-      "name": "Sushi Platter",
-      "price": 18.99,
-      "image": "https://images.unsplash.com/photo-1579888874235-9f52a3b27f2d?w=400&h=300&fit=crop&crop=center",
-      "description": "Assorted sushi rolls with soy sauce and wasabi."
+      "name": "Veg Biryani",
+      "price": 200,
+      "image": "https://images.unsplash.com/photo-1593591980630-8045b0f0e3e9?w=400&h=300&fit=crop&crop=center",
+      "description": "Mixed vegetables and rice slow-cooked with herbs.",
+      "type": "Veg",
+      "food_type": "Biryani"
     },
     {
       "id": 6,
-      "name": "Pad Thai",
-      "price": 10.5,
-      "image": "https://images.unsplash.com/photo-1627308595390-0db2f4a4c6c2?w=400&h=300&fit=crop&crop=center",
-      "description": "Thai noodles stir-fried with shrimp, tofu, and peanuts."
+      "name": "Chicken Biryani",
+      "price": 240,
+      "image": "https://images.unsplash.com/photo-1613145998971-4c9cd1eaf5f3?w=400&h=300&fit=crop&crop=center",
+      "description": "Authentic Hyderabadi chicken dum biryani.",
+      "type": "Non-Veg",
+      "food_type": "Biryani"
     },
     {
       "id": 7,
-      "name": "Steak with Fries",
-      "price": 16.25,
-      "image": "https://images.unsplash.com/photo-1613145998971-4c9cd1eaf5f3?w=400&h=300&fit=crop&crop=center",
-      "description": "Grilled beef steak served with crispy fries."
+      "name": "Butter Chicken",
+      "price": 250,
+      "image": "https://images.unsplash.com/photo-1642330374034-2de3f90c2a57?w=400&h=300&fit=crop&crop=center",
+      "description": "Creamy tomato-based chicken curry.",
+      "type": "Non-Veg",
+      "food_type": "MainCourse"
     },
     {
       "id": 8,
-      "name": "Veggie Sandwich",
-      "price": 7.25,
-      "image": "https://images.unsplash.com/photo-1585238342028-4bbc9f4d91b2?w=400&h=300&fit=crop&crop=center",
-      "description": "Whole grain bread loaded with fresh vegetables."
+      "name": "Palak Paneer",
+      "price": 190,
+      "image": "https://images.unsplash.com/photo-1589302168068-964664d93dc0?w=400&h=300&fit=crop&crop=center",
+      "description": "Paneer cubes cooked in creamy spinach gravy.",
+      "type": "Veg",
+      "food_type": "MainCourse"
     },
     {
       "id": 9,
-      "name": "Grilled Salmon",
-      "price": 14.95,
-      "image": "https://images.unsplash.com/photo-1588167056543-e7eaf37d4f87?w=400&h=300&fit=crop&crop=center",
-      "description": "Seasoned salmon fillet grilled to perfection."
+      "name": "Fish Curry",
+      "price": 230,
+      "image": "https://images.unsplash.com/photo-1696061346343-9ac14a09e937?w=400&h=300&fit=crop&crop=center",
+      "description": "Tangy and spicy coastal-style fish curry.",
+      "type": "Non-Veg",
+      "food_type": "MainCourse"
     },
     {
       "id": 10,
-      "name": "Beef Tacos",
-      "price": 9.49,
-      "image": "https://images.unsplash.com/photo-1604908177522-4028a2db7ef4?w=400&h=300&fit=crop&crop=center",
-      "description": "Spicy ground beef tacos with lettuce and salsa."
+      "name": "Dal Tadka",
+      "price": 150,
+      "image": "https://images.unsplash.com/photo-1605478373534-489b8eb6b08c?w=400&h=300&fit=crop&crop=center",
+      "description": "Tempered yellow lentils with spices.",
+      "type": "Veg",
+      "food_type": "MainCourse"
     },
     {
       "id": 11,
-      "name": "Pancake Stack",
-      "price": 6.99,
-      "image": "https://images.unsplash.com/photo-1587731102740-b6f0d4b9a8df?w=400&h=300&fit=crop&crop=center",
-      "description": "Fluffy pancakes topped with syrup and berries."
+      "name": "Chicken Lollipop",
+      "price": 190,
+      "image": "https://images.unsplash.com/photo-1642330373854-c0d7b4d9e4d9?w=400&h=300&fit=crop&crop=center",
+      "description": "Crispy fried chicken wings with tangy sauce.",
+      "type": "Non-Veg",
+      "food_type": "Starter"
     },
     {
       "id": 12,
-      "name": "Chocolate Brownie",
-      "price": 4.5,
-      "image": "https://images.unsplash.com/photo-1589302168068-964664d93dc0?w=400&h=300&fit=crop&crop=center",
-      "description": "Rich chocolate brownie served warm."
+      "name": "Masala Dosa",
+      "price": 110,
+      "image": "https://images.unsplash.com/photo-1672592370216-1e0d6a3a8d8f?w=400&h=300&fit=crop&crop=center",
+      "description": "South Indian dosa stuffed with spiced potatoes.",
+      "type": "Veg",
+      "food_type": "MainCourse"
+    },
+    {
+      "id": 13,
+      "name": "Gulab Jamun",
+      "price": 80,
+      "image": "https://images.unsplash.com/photo-1603052876144-8b19f30cc7e4?w=400&h=300&fit=crop&crop=center",
+      "description": "Deep-fried milk balls soaked in sugar syrup.",
+      "type": "Veg",
+      "food_type": "Dessert"
+    },
+    {
+      "id": 14,
+      "name": "Tandoori Chicken",
+      "price": 260,
+      "image": "https://images.unsplash.com/photo-1620580553843-6b6bb5e39179?w=400&h=300&fit=crop&crop=center",
+      "description": "Chargrilled chicken marinated in yogurt and spices.",
+      "type": "Non-Veg",
+      "food_type": "Starter"
+    },
+    {
+      "id": 15,
+      "name": "Samosa",
+      "price": 40,
+      "image": "https://images.unsplash.com/photo-1677933932523-810a5b0e7d29?w=400&h=300&fit=crop&crop=center",
+      "description": "Fried pastry filled with spicy potato mix.",
+      "type": "Veg",
+      "food_type": "Starter"
+    },
+    {
+      "id": 16,
+      "name": "Paneer Butter Masala",
+      "price": 200,
+      "image": "https://images.unsplash.com/photo-1681912242520-248b4bdb37d0?w=400&h=300&fit=crop&crop=center",
+      "description": "Paneer in creamy tomato gravy.",
+      "type": "Veg",
+      "food_type": "MainCourse"
+    },
+    {
+      "id": 17,
+      "name": "Rasgulla",
+      "price": 60,
+      "image": "https://images.unsplash.com/photo-1659772333613-f7b6d3034bcf?w=400&h=300&fit=crop&crop=center",
+      "description": "Soft white cheese balls soaked in sugar syrup.",
+      "type": "Veg",
+      "food_type": "Dessert"
+    },
+    {
+      "id": 18,
+      "name": "Mutton Rogan Josh",
+      "price": 270,
+      "image": "https://images.unsplash.com/photo-1657739981093-4b15947673fa?w=400&h=300&fit=crop&crop=center",
+      "description": "Kashmiri-style slow-cooked lamb curry.",
+      "type": "Non-Veg",
+      "food_type": "MainCourse"
+    },
+    {
+      "id": 19,
+      "name": "Chole Bhature",
+      "price": 130,
+      "image": "https://images.unsplash.com/photo-1631452180511-9b159717cf85?w=400&h=300&fit=crop&crop=center",
+      "description": "Spicy chickpeas with fried bhature bread.",
+      "type": "Veg",
+      "food_type": "MainCourse"
+    },
+    {
+      "id": 20,
+      "name": "Lassi",
+      "price": 60,
+      "image": "https://images.unsplash.com/photo-1628840048155-790d7b86c325?w=400&h=300&fit=crop&crop=center",
+      "description": "Refreshing yogurt-based drink.",
+      "type": "Veg",
+      "food_type": "Beverage"
+    },
+    {
+      "id": 21,
+      "name": "Egg Curry",
+      "price": 180,
+      "image": "https://images.unsplash.com/photo-1605296867304-46d5465a13f1?w=400&h=300&fit=crop&crop=center",
+      "description": "Boiled eggs simmered in spicy gravy.",
+      "type": "Non-Veg",
+      "food_type": "MainCourse"
+    },
+    {
+      "id": 22,
+      "name": "Mixed Veg Curry",
+      "price": 160,
+      "image": "https://images.unsplash.com/photo-1679078919344-6e285d8f7b4f?w=400&h=300&fit=crop&crop=center",
+      "description": "Seasonal vegetables cooked in rich gravy.",
+      "type": "Veg",
+      "food_type": "MainCourse"
+    },
+    {
+      "id": 23,
+      "name": "Thums Up",
+      "price": 40,
+      "image": "https://images.unsplash.com/photo-1589395937759-30dbed8c8a7e?w=400&h=300&fit=crop&crop=center",
+      "description": "Carbonated soft drink.",
+      "type": "Veg",
+      "food_type": "Beverage"
+    },
+    {
+      "id": 24,
+      "name": "Sweet Lassi",
+      "price": 50,
+      "image": "https://images.unsplash.com/photo-1680572232383-99880d10d050?w=400&h=300&fit=crop&crop=center",
+      "description": "Chilled sweetened yogurt drink.",
+      "type": "Veg",
+      "food_type": "Beverage"
+    },
+    {
+      "id": 25,
+      "name": "Veg Spring Roll",
+      "price": 120,
+      "image": "https://images.unsplash.com/photo-1681962745130-571c3fa13fe2?w=400&h=300&fit=crop&crop=center",
+      "description": "Crispy rolls filled with spicy veggies.",
+      "type": "Veg",
+      "food_type": "Starter"
+    },
+    {
+      "id": 26,
+      "name": "Prawn Masala",
+      "price": 260,
+      "image": "https://images.unsplash.com/photo-1627308595229-7830a5c91f9f?w=400&h=300&fit=crop&crop=center",
+      "description": "Spicy and tangy prawn curry.",
+      "type": "Non-Veg",
+      "food_type": "MainCourse"
+    },
+    {
+      "id": 27,
+      "name": "Jeera Rice",
+      "price": 100,
+      "image": "https://images.unsplash.com/photo-1677415769374-b9ec50527e44?w=400&h=300&fit=crop&crop=center",
+      "description": "Basmati rice tempered with cumin.",
+      "type": "Veg",
+      "food_type": "MainCourse"
+    },
+    {
+      "id": 28,
+      "name": "Curd Rice",
+      "price": 90,
+      "image": "https://images.unsplash.com/photo-1611238666323-78decd5c98a7?w=400&h=300&fit=crop&crop=center",
+      "description": "South Indian curd rice with tempering.",
+      "type": "Veg",
+      "food_type": "MainCourse"
+    },
+    {
+      "id": 29,
+      "name": "Egg Biryani",
+      "price": 210,
+      "image": "https://images.unsplash.com/photo-1606755962773-0ec06a832238?w=400&h=300&fit=crop&crop=center",
+      "description": "Biryani rice cooked with boiled eggs and masala.",
+      "type": "Non-Veg",
+      "food_type": "Biryani"
+    },
+    {
+      "id": 30,
+      "name": "Mango Lassi",
+      "price": 70,
+      "image": "https://images.unsplash.com/photo-1627308594910-6dfd83c0b6f1?w=400&h=300&fit=crop&crop=center",
+      "description": "Thick mango-flavored yogurt drink.",
+      "type": "Veg",
+      "food_type": "Beverage"
     }
   ]
 }
