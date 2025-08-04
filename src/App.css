@@ -75,9 +75,9 @@
   cursor: pointer;
 }
 
-.filter-button:hover {
-  background-color: #f3f4f6;
-}
+/* .filter-button:hover {
+  background-color: #7c7c7c;
+} */
 
 /* Active Styles */
 .active-veg {
@@ -96,6 +96,36 @@
   background-color: #1f2937;
   color: white;
   border-color: #1f2937;
+}
+
+
+.welcome-message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  animation: fadeIn 1s;
+  width: 75%;
+  
+}
+
+.welcome-message h1 {
+  font-size: 2.8rem;
+  font-family: 'Pacifico', cursive, sans-serif;
+  color: #d2691e;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 8px #fff8dc, 0 0 10px #ffb347;
+}
+
+.welcome-message .royal {
+  color: #b8860b;
+  font-weight: bold;
+  text-shadow: 2px 2px 12px #fffacd, 0 0 10px #ffd700;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.95);}
+  to { opacity: 1; transform: scale(1);}
 }
 
 /* Food List Offset */
@@ -133,7 +163,11 @@
   transition: box-shadow 0.3s ease;
   overflow: hidden;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  border: 1px solid #616161;
+  display: flex;
+  align-items: center;
+  padding: 0px 12px;
 }
 
 .food-card:hover {
@@ -163,6 +197,7 @@
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
+  width: 100%;
 }
 
 /* Header */
@@ -183,6 +218,7 @@
 .food-type {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .food-dot {
@@ -219,6 +255,8 @@
   border-radius: 9999px;
   font-size: 0.875rem;
   font-weight: 600;
+  display: flex;
+  justify-content: end;
 }
 
 .food-category {
@@ -254,3 +292,35 @@
   color: #6b7280;
 }
 
+/* Styles for the category filter buttons */
+.category-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.category-filters .filter-button {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  color: #333;
+  font-size: 14px;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+}
+
+.category-filters .filter-button:hover {
+  background-color: #28a745;
+}
+
+/* Highlight style for the selected category button */
+.category-filters .active-category {
+  background-color: #28a745; /* A vibrant green color */
+  color: #fff;
+  border-color: #28a745;
+  font-weight: bold;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a subtle shadow for depth */
+  transform: scale(1.05); /* Slightly enlarge the button */
+}
